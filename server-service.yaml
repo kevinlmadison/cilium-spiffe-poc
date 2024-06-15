@@ -4,7 +4,7 @@ metadata:
   name: spire-server
   namespace: spire
 spec:
-  type: NodePort
+  type: ClusterIP
   ports:
     - name: grpc
       port: 8081

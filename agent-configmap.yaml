@@ -4,7 +4,7 @@ metadata:
   name: spire-agent
   namespace: spire
 data:
-#       socket_path = "/run/spire/sockets/agent/agent.sock"
+  #       socket_path = "/run/spire/sockets/agent/agent.sock"
   agent.conf: |
     agent {
       data_dir = "/run/spire"
